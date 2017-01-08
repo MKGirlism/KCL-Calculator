@@ -9,3 +9,8 @@ This App was tested on Arch Linux, Manjaro, Ubuntu, Linux Mint, and Windows 10.
 
 Compiling on Linux:
 gcc -o kclcalc *.c \`pkg-config --libs --cflags gtk+-2.0\`
+
+Official thread: https://www.dshack.org/forum.php?page=thread&tid=339
+
+<img src="https://www.dshack.org/assets/images/KCLCalc1.png" /><br />
+<img src="https://www.dshack.org/assets/images/KCLCalc2.png" />
