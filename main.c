@@ -48,29 +48,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 9;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 10;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 11;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 12;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 13;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 14;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 15;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 0;
 	}
-	
-	if (text[2] == '1') {
+	else if (text[2] == '1') {
 		if (text[3] == '0') {
 			f3 = 16;
 		}
@@ -101,29 +103,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 25;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 26;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 27;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 28;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 29;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 30;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 31;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 0;
 	}
-	
-	if (text[2] == '2') {
+	else if (text[2] == '2') {
 		if (text[3] == '0') {
 			f3 = 0;
 		}
@@ -154,29 +158,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 9;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 10;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 11;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 12;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 13;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 14;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 15;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 1;
 	}
-	
-	if (text[2] == '3') {
+	else if (text[2] == '3') {
 		if (text[3] == '0') {
 			f3 = 16;
 		}
@@ -207,29 +213,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 25;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 26;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 27;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 28;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 29;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 30;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 31;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 1;
 	}
-	
-	if (text[2] == '4') {
+	else if (text[2] == '4') {
 		if (text[3] == '0') {
 			f3 = 0;
 		}
@@ -260,29 +268,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 9;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 10;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 11;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 12;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 13;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 14;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 15;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 2;
 	}
-	
-	if (text[2] == '5') {
+	else if (text[2] == '5') {
 		if (text[3] == '0') {
 			f3 = 16;
 		}
@@ -313,29 +323,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 25;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 26;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 27;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 28;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 29;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 30;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 31;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 2;
 	}
-	
-	if (text[2] == '6') {
+	else if (text[2] == '6') {
 		if (text[3] == '0') {
 			f3 = 0;
 		}
@@ -366,29 +378,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 9;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 10;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 11;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 12;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 13;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 14;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 15;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 3;
 	}
-	
-	if (text[2] == '7') {
+	else if (text[2] == '7') {
 		if (text[3] == '0') {
 			f3 = 16;
 		}
@@ -419,29 +433,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 25;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 26;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 27;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 28;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 29;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 30;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 31;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 3;
 	}
-	
-	if (text[2] == '8') {
+	else if (text[2] == '8') {
 		if (text[3] == '0') {
 			f3 = 0;
 		}
@@ -472,29 +488,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 9;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 10;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 11;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 12;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 13;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 14;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 15;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 4;
 	}
-	
-	if (text[2] == '9') {
+	else if (text[2] == '9') {
 		if (text[3] == '0') {
 			f3 = 16;
 		}
@@ -525,29 +543,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 25;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 26;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 27;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 28;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 29;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 30;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 31;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 4;
 	}
-	
-	if (text[2] == 'A') {
+	else if (text[2] == 'A' || text[2] == 'a') {
 		if (text[3] == '0') {
 			f3 = 0;
 		}
@@ -578,29 +598,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 9;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 10;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 11;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 12;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 13;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 14;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 15;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 5;
 	}
-	
-	if (text[2] == 'B') {
+	else if (text[2] == 'B' || text[2] == 'b') {
 		if (text[3] == '0') {
 			f3 = 16;
 		}
@@ -631,29 +653,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 25;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 26;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 27;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 28;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 29;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 30;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 31;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 5;
 	}
-	
-	if (text[2] == 'C') {
+	else if (text[2] == 'C' || text[2] == 'c') {
 		if (text[3] == '0') {
 			f3 = 0;
 		}
@@ -684,29 +708,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 9;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 10;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 11;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 12;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 13;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 14;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 15;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 6;
 	}
-	
-	if (text[2] == 'D') {
+	else if (text[2] == 'D' || text[2] == 'd') {
 		if (text[3] == '0') {
 			f3 = 16;
 		}
@@ -737,29 +763,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 25;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 26;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 27;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 28;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 29;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 30;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 31;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 6;
 	}
-	
-	if (text[2] == 'E') {
+	else if (text[2] == 'E' || text[2] == 'e') {
 		if (text[3] == '0') {
 			f3 = 0;
 		}
@@ -790,29 +818,31 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 9;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 10;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 11;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 12;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 13;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 14;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 15;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 7;
 	}
-	
-	if (text[2] == 'F') {
+	else if (text[2] == 'F' || text[2] == 'f') {
 		if (text[3] == '0') {
 			f3 = 16;
 		}
@@ -843,26 +873,33 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 		else if (text[3] == '9') {
 			f3 = 25;
 		}
-		else if (text[3] == 'A') {
+		else if (text[3] == 'A' || text[3] == 'a') {
 			f3 = 26;
 		}
-		else if (text[3] == 'B') {
+		else if (text[3] == 'B' || text[3] == 'b') {
 			f3 = 27;
 		}
-		else if (text[3] == 'C') {
+		else if (text[3] == 'C' || text[3] == 'c') {
 			f3 = 28;
 		}
-		else if (text[3] == 'D') {
+		else if (text[3] == 'D' || text[3] == 'd') {
 			f3 = 29;
 		}
-		else if (text[3] == 'E') {
+		else if (text[3] == 'E' || text[3] == 'e') {
 			f3 = 30;
 		}
-		else if (text[3] == 'F') {
+		else if (text[3] == 'F' || text[3] == 'f') {
 			f3 = 31;
+		}
+		else {
+			f3 = 0;
 		}
 		
 		f2 = 7;
+	}
+	else {
+		f2 = 0;
+		f3 = 0;
 	}
 	
 	if (text[1] == '0') {
@@ -895,22 +932,22 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 	else if (text[1] == '9') {
 		f1 = 9;
 	}
-	else if (text[1] == 'A') {
+	else if (text[1] == 'A' || text[1] == 'a') {
 		f1 = 10;
 	}
-	else if (text[1] == 'B') {
+	else if (text[1] == 'B' || text[1] == 'b') {
 		f1 = 11;
 	}
-	else if (text[1] == 'C') {
+	else if (text[1] == 'C' || text[1] == 'c') {
 		f1 = 12;
 	}
-	else if (text[1] == 'D') {
+	else if (text[1] == 'D' || text[1] == 'd') {
 		f1 = 13;
 	}
-	else if (text[1] == 'E') {
+	else if (text[1] == 'E' || text[1] == 'e') {
 		f1 = 14;
 	}
-	else if (text[1] == 'F') {
+	else if (text[1] == 'F' || text[1] == 'f') {
 		f1 = 15;
 	}
 	else {
@@ -947,22 +984,22 @@ void entryres (GtkWidget *widget, GdkEventKey *event) {
 	else if (text[0] == '9') {
 		f0 = 9;
 	}
-	else if (text[0] == 'A') {
+	else if (text[0] == 'A' || text[0] == 'a') {
 		f0 = 10;
 	}
-	else if (text[0] == 'B') {
+	else if (text[0] == 'B' || text[0] == 'b') {
 		f0 = 11;
 	}
-	else if (text[0] == 'C') {
+	else if (text[0] == 'C' || text[0] == 'c') {
 		f0 = 12;
 	}
-	else if (text[0] == 'D') {
+	else if (text[0] == 'D' || text[0] == 'd') {
 		f0 = 13;
 	}
-	else if (text[0] == 'E') {
+	else if (text[0] == 'E' || text[0] == 'e') {
 		f0 = 14;
 	}
-	else if (text[0] == 'F') {
+	else if (text[0] == 'F' || text[0] == 'f') {
 		f0 = 15;
 	}
 	else {
